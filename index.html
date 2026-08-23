@@ -1,149 +1,1068 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="#0b1020" />
-  <meta name="description" content="Aakash S Hari — Full Stack Developer and M.Sc. Computer Science student at the University of Kerala." />
+
+  <meta
+    name="description"
+    content="Aakash S Hari — Full Stack Developer and M.Sc. Computer Science student at the University of Kerala."
+  />
+
   <meta property="og:title" content="Aakash S Hari | Full Stack Developer" />
-  <meta property="og:description" content="Building digital experiences from frontend to backend." />
+  <meta
+    property="og:description"
+    content="Building digital experiences from frontend to backend."
+  />
+
   <title>Aakash S Hari | Full Stack Developer</title>
+
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Main CSS -->
   <link rel="stylesheet" href="css/style.css" />
 </head>
+
 <body>
+
+  <!-- Scroll Progress -->
   <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- Cursor Glow -->
   <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- ================= HEADER ================= -->
 
   <header class="header" id="header">
     <nav class="nav container">
-      <a href="#home" class="brand"><span>A</span> Aakash<span class="dot">.</span></a>
+
+      <a href="#home" class="brand">
+        <span>A</span> Aakash<span class="dot">.</span>
+      </a>
+
       <div class="nav-links" id="navLinks">
-        <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a>
-        <a href="#projects">Projects</a><a href="#education">Education</a><a href="#beyond">Beyond Coding</a><a href="#contact">Contact</a>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#beyond">Beyond Coding</a>
+        <a href="#contact">Contact</a>
       </div>
+
       <div class="nav-actions">
-        <button class="icon-btn" id="themeToggle" aria-label="Toggle theme">☼</button>
-        <button class="menu-btn" id="menuBtn" aria-label="Open menu"><span></span><span></span><span></span></button>
+
+        <button
+          class="icon-btn"
+          id="themeToggle"
+          aria-label="Toggle theme"
+        >
+          ☼
+        </button>
+
+        <button
+          class="menu-btn"
+          id="menuBtn"
+          aria-label="Open menu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
       </div>
+
     </nav>
   </header>
 
+
   <main>
+
+    <!-- ================= HERO ================= -->
+
     <section class="hero section" id="home">
+
       <div class="hero-grid container">
+
         <div class="hero-copy reveal">
-          <div class="eyebrow"><i></i> Available for opportunities</div>
-          <p class="code-label">&lt;hello world /&gt;</p>
-          <h1>Building digital experiences <em>from frontend to backend.</em></h1>
-          <p class="hero-text">I'm <strong>Aakash S Hari</strong>, a Full Stack Developer and M.Sc. Computer Science student at the University of Kerala, passionate about building modern, scalable, and meaningful web applications.</p>
+
+          <div class="eyebrow">
+            <i></i> Available for opportunities
+          </div>
+
+          <p class="code-label">
+            &lt;hello world /&gt;
+          </p>
+
+          <h1>
+            Building digital experiences
+            <em>from frontend to backend.</em>
+          </h1>
+
+          <p class="hero-text">
+            I'm <strong>Aakash S Hari</strong>, a Full Stack Developer and
+            M.Sc. Computer Science student at the University of Kerala,
+            passionate about building modern, scalable, and meaningful
+            web applications.
+          </p>
+
           <div class="hero-actions">
-            <a class="btn btn-primary" href="#projects">View My Work <span>↗</span></a>
-            <a class="btn btn-secondary" href="#contact">Let's Talk <span>→</span></a>
+
+            <a
+              class="btn btn-primary"
+              href="#projects"
+            >
+              View My Work <span>↗</span>
+            </a>
+
+            <a
+              class="btn btn-secondary"
+              href="#contact"
+            >
+              Let's Talk <span>→</span>
+            </a>
+
           </div>
+
           <div class="socials">
-            <a href="https://github.com/aakash10802" target="_blank" rel="noopener">GitHub</a>
-            <a href="https://www.linkedin.com/in/aakash-s-hari-2209a1257/" target="_blank" rel="noopener">LinkedIn</a>
-            <a href="mailto:aakashpc123@gmail.com">Email</a>
+
+            <a
+              href="https://github.com/aakash10802"
+              target="_blank"
+              rel="noopener"
+            >
+              GitHub
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/aakash-s-hari-2209a1257/"
+              target="_blank"
+              rel="noopener"
+            >
+              LinkedIn
+            </a>
+
+            <a href="mailto:aakashpc123@gmail.com">
+              Email
+            </a>
+
           </div>
+
         </div>
 
+
+        <!-- Hero Visual -->
+
         <div class="hero-visual reveal">
-          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+
           <div class="code-card glass">
-            <div class="window-bar"><span></span><span></span><span></span><small>developer.js</small></div>
+
+            <div class="window-bar">
+              <span></span>
+              <span></span>
+              <span></span>
+              <small>developer.js</small>
+            </div>
+
             <pre><code><b>const</b> developer = {
   name: <em>"Aakash S Hari"</em>,
   role: <em>"Full Stack Developer"</em>,
   passion: <em>"building useful things"</em>,
   sport: <em>"Wrestling"</em>
 };</code></pre>
+
           </div>
+
+
           <div class="profile-wrap">
+
             <div class="profile-ring"></div>
-            <img id="profileImage" src="assets/profile.png" alt="Aakash S Hari profile illustration">
+
+            <img
+              id="profileImage"
+              src="assets/profile.png"
+              alt="Aakash S Hari profile illustration"
+            />
+
           </div>
-          <div class="floating-tag tag-one">&lt;/&gt; clean code</div>
-          <div class="floating-tag tag-two">⚡ problem solver</div>
+
+
+          <div class="floating-tag tag-one">
+            &lt;/&gt; clean code
+          </div>
+
+          <div class="floating-tag tag-two">
+            ⚡ problem solver
+          </div>
+
         </div>
+
       </div>
-      <div class="hero-bottom container"><span>Scroll to explore</span><div class="scroll-line"></div><span>01 — 07</span></div>
+
+
+      <div class="hero-bottom container">
+
+        <span>Scroll to explore</span>
+
+        <div class="scroll-line"></div>
+
+        <span>01 — 08</span>
+
+      </div>
+
     </section>
+
+
+    <!-- ================= ABOUT ================= -->
 
     <section class="section" id="about">
+
       <div class="container two-col">
-        <div class="section-heading reveal"><p class="kicker">01 / ABOUT</p><h2>Curious mind.<br><span>Builder's mindset.</span></h2></div>
-        <div class="about-copy reveal"><div class="about-photo"><img src="assets/about-photo.png" alt="Aakash S Hari with a friend"></div>
-          <p class="lead">I'm a 24-year-old Full Stack Developer currently pursuing an <strong>M.Sc. in Computer Science</strong> at the University of Kerala, Kariyavattom.</p>
-          <p>I enjoy turning ideas into useful digital products — from thoughtful interfaces and responsive frontend experiences to APIs, databases, and deployment. I'm especially interested in modern web technologies, software engineering, and practical problem solving.</p>
-          <div class="stat-row"><div><strong>24</strong><span>Years old</span></div><div><strong>M.Sc.</strong><span>Computer Science</span></div><div><strong>∞</strong><span>Things to build</span></div></div>
+
+        <div class="section-heading reveal">
+
+          <p class="kicker">
+            01 / ABOUT
+          </p>
+
+          <h2>
+            Curious mind.<br>
+            <span>Builder's mindset.</span>
+          </h2>
+
         </div>
+
+
+        <div class="about-copy reveal">
+
+          <div class="about-photo">
+
+            <img
+              src="assets/about-photo.png"
+              alt="Aakash S Hari with a friend"
+            />
+
+          </div>
+
+
+          <p class="lead">
+
+            I'm a 24-year-old Full Stack Developer currently pursuing an
+            <strong>M.Sc. in Computer Science</strong> at the University
+            of Kerala, Kariyavattom.
+
+          </p>
+
+
+          <p>
+
+            I enjoy turning ideas into useful digital products — from
+            thoughtful interfaces and responsive frontend experiences
+            to APIs, databases, and deployment. I'm especially interested
+            in modern web technologies, software engineering, and practical
+            problem solving.
+
+          </p>
+
+
+          <div class="stat-row">
+
+            <div>
+              <strong>24</strong>
+              <span>Years old</span>
+            </div>
+
+            <div>
+              <strong>M.Sc.</strong>
+              <span>Computer Science</span>
+            </div>
+
+            <div>
+              <strong>∞</strong>
+              <span>Things to build</span>
+            </div>
+
+          </div>
+
+        </div>
+
       </div>
+
     </section>
+
+
+    <!-- ================= SKILLS ================= -->
 
     <section class="section muted" id="skills">
+
       <div class="container">
-        <div class="section-heading center reveal"><p class="kicker">02 / SKILLS</p><h2>Tools for turning<br><span>ideas into products.</span></h2><p>These are editable technology placeholders — update them to match your real experience.</p></div>
-        <div class="skills-grid" id="skillsGrid"></div>
+
+        <div class="section-heading center reveal">
+
+          <p class="kicker">
+            02 / SKILLS
+          </p>
+
+          <h2>
+            Tools for turning<br>
+            <span>ideas into products.</span>
+          </h2>
+
+          <p>
+            Technologies and tools I use to design, develop,
+            and deploy modern digital experiences.
+          </p>
+
+        </div>
+
+        <div
+          class="skills-grid"
+          id="skillsGrid"
+        ></div>
+
       </div>
+
     </section>
+
+
+    <!-- ================= PROJECTS ================= -->
 
     <section class="section" id="projects">
+
       <div class="container">
-        <div class="section-top reveal"><div class="section-heading"><p class="kicker">03 / PROJECTS</p><h2>Selected <span>work.</span></h2></div><div class="filters" id="filters"><button class="active" data-filter="all">All</button><button data-filter="web">Web</button><button data-filter="fullstack">Full Stack</button></div></div>
-        <div class="projects-grid" id="projectsGrid"></div>
+
+        <div class="section-top reveal">
+
+          <div class="section-heading">
+
+            <p class="kicker">
+              03 / PROJECTS
+            </p>
+
+            <h2>
+              Selected <span>work.</span>
+            </h2>
+
+          </div>
+
+
+          <div
+            class="filters"
+            id="filters"
+          >
+
+            <button
+              class="active"
+              data-filter="all"
+            >
+              All
+            </button>
+
+            <button data-filter="web">
+              Web
+            </button>
+
+            <button data-filter="fullstack">
+              Full Stack
+            </button>
+
+          </div>
+
+        </div>
+
+
+        <div
+          class="projects-grid"
+          id="projectsGrid"
+        ></div>
+
       </div>
+
     </section>
+
+
+    <!-- ================= FULL STACK WORKFLOW ================= -->
 
     <section class="section muted" id="workflow">
+
       <div class="container">
-        <div class="section-heading center reveal"><p class="kicker">04 / FULL STACK</p><h2>From idea to <span>deployment.</span></h2><p>A complete workflow across the web application stack.</p></div>
-        <div class="workflow" id="workflowGrid"></div>
+
+        <div class="section-heading center reveal">
+
+          <p class="kicker">
+            04 / FULL STACK
+          </p>
+
+          <h2>
+            From idea to
+            <span>deployment.</span>
+          </h2>
+
+          <p>
+            A complete workflow across the web application stack.
+          </p>
+
+        </div>
+
+
+        <div
+          class="workflow"
+          id="workflowGrid"
+        ></div>
+
       </div>
+
     </section>
+
+
+    <!-- ================= EDUCATION ================= -->
 
     <section class="section" id="education">
+
       <div class="container two-col education-layout">
-        <div class="section-heading reveal"><p class="kicker">05 / EDUCATION</p><h2>Learning is a<br><span>continuous process.</span></h2></div>
+
+        <div class="section-heading reveal">
+
+          <p class="kicker">
+            05 / EDUCATION
+          </p>
+
+          <h2>
+            Learning is a<br>
+            <span>continuous process.</span>
+          </h2>
+
+        </div>
+
+
         <div class="timeline reveal">
-          <article class="timeline-item active"><div class="timeline-dot"></div><span class="timeline-date">CURRENT</span><h3>M.Sc. Computer Science</h3><p>University of Kerala</p><small>Kariyavattom, Kerala, India</small><b>Current Education</b></article>
-          <article class="timeline-item"><div class="timeline-dot"></div><span class="timeline-date">PREVIOUS</span><h3>B.Sc. Computer Science</h3><p>Muslim Association College of Arts and Science</p><small>Panavoor, Kerala · Affiliated to University of Kerala</small></article>
+
+          <article class="timeline-item active">
+
+            <div class="timeline-dot"></div>
+
+            <span class="timeline-date">
+              CURRENT
+            </span>
+
+            <h3>
+              M.Sc. Computer Science
+            </h3>
+
+            <p>
+              University of Kerala
+            </p>
+
+            <small>
+              Kariyavattom, Kerala, India
+            </small>
+
+            <b>
+              Current Education
+            </b>
+
+          </article>
+
+
+          <article class="timeline-item">
+
+            <div class="timeline-dot"></div>
+
+            <span class="timeline-date">
+              PREVIOUS
+            </span>
+
+            <h3>
+              B.Sc. Computer Science
+            </h3>
+
+            <p>
+              Muslim Association College of Arts and Science
+            </p>
+
+            <small>
+              Panavoor, Kerala · Affiliated to University of Kerala
+            </small>
+
+          </article>
+
         </div>
+
       </div>
+
     </section>
 
-    <section class="section beyond" id="beyond">
+
+    <!-- ================= CERTIFICATIONS ================= -->
+
+    <section
+      class="section muted"
+      id="certifications"
+    >
+
+      <div class="container">
+
+        <div class="section-heading center reveal">
+
+          <p class="kicker">
+            06 / CERTIFICATIONS
+          </p>
+
+          <h2>
+            Learning beyond<br>
+            <span>the classroom.</span>
+          </h2>
+
+          <p>
+            Certifications and training that strengthen my technical
+            foundation and practical development skills.
+          </p>
+
+        </div>
+
+
+        <div class="certifications-grid">
+
+
+          <!-- Certification 01 -->
+
+          <article class="cert-card reveal">
+
+            <div class="cert-icon">
+              JS
+            </div>
+
+            <div class="cert-content">
+
+              <span class="cert-category">
+                JavaScript
+              </span>
+
+              <h3>
+                JavaScript Algorithms and Data Structures
+              </h3>
+
+              <p>
+                freeCodeCamp
+              </p>
+
+            </div>
+
+            <div class="cert-number">
+              01
+            </div>
+
+          </article>
+
+
+          <!-- Certification 02 -->
+
+          <article class="cert-card reveal">
+
+            <div class="cert-icon">
+              WEB
+            </div>
+
+            <div class="cert-content">
+
+              <span class="cert-category">
+                Web Development
+              </span>
+
+              <h3>
+                Responsive Web Design
+              </h3>
+
+              <p>
+                freeCodeCamp
+              </p>
+
+            </div>
+
+            <div class="cert-number">
+              02
+            </div>
+
+          </article>
+
+
+          <!-- Certification 03 -->
+
+          <article class="cert-card reveal">
+
+            <div class="cert-icon">
+              GIT
+            </div>
+
+            <div class="cert-content">
+
+              <span class="cert-category">
+                Development Tools
+              </span>
+
+              <h3>
+                Git &amp; GitHub Bootcamp
+              </h3>
+
+              <p>
+                LetsUpgrade
+              </p>
+
+            </div>
+
+            <div class="cert-number">
+              03
+            </div>
+
+          </article>
+
+
+          <!-- Certification 04 -->
+
+          <article class="cert-card reveal">
+
+            <div class="cert-icon">
+              TW
+            </div>
+
+            <div class="cert-content">
+
+              <span class="cert-category">
+                Frontend Development
+              </span>
+
+              <h3>
+                Tailwind CSS Bootcamp
+              </h3>
+
+              <p>
+                LetsUpgrade
+              </p>
+
+            </div>
+
+            <div class="cert-number">
+              04
+            </div>
+
+          </article>
+
+
+          <!-- Certification 05 -->
+
+          <article class="cert-card reveal">
+
+            <div class="cert-icon">
+              PY
+            </div>
+
+            <div class="cert-content">
+
+              <span class="cert-category">
+                Data Science
+              </span>
+
+              <h3>
+                Data Science with Python Bootcamp
+              </h3>
+
+              <p>
+                LetsUpgrade
+              </p>
+
+            </div>
+
+            <div class="cert-number">
+              05
+            </div>
+
+          </article>
+
+
+          <!-- Certification 06 -->
+
+          <article class="cert-card reveal">
+
+            <div class="cert-icon">
+              PY
+            </div>
+
+            <div class="cert-content">
+
+              <span class="cert-category">
+                Programming
+              </span>
+
+              <h3>
+                Introduction to Programming Using Python
+              </h3>
+
+              <p>
+                Clado Solutions
+              </p>
+
+            </div>
+
+            <div class="cert-number">
+              06
+            </div>
+
+          </article>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= BEYOND CODING ================= -->
+
+    <section
+      class="section beyond"
+      id="beyond"
+    >
+
       <div class="container beyond-card reveal">
-        <div class="beyond-copy"><p class="kicker">06 / BEYOND CODING</p><h2>Built for the mat.<br><span>Ready for the challenge.</span></h2><p>Wrestling brings a different kind of engineering mindset: discipline, strength, focus, persistence, and the willingness to improve after every round.</p><div class="qualities"><span>Discipline</span><span>Strength</span><span>Persistence</span><span>Focus</span><span>Competitive spirit</span><span>Continuous improvement</span></div></div>
-        <div class="wrestle-visual"><img class="wrestling-graphic" src="assets/wrestling.svg" alt="Abstract wrestling graphic"><div class="quote">“Every round is another opportunity to get better.”</div></div>
+
+        <div class="beyond-copy">
+
+          <p class="kicker">
+            07 / BEYOND CODING
+          </p>
+
+          <h2>
+            Built for the mat.<br>
+            <span>Ready for the challenge.</span>
+          </h2>
+
+          <p>
+            Wrestling brings a different kind of engineering mindset:
+            discipline, strength, focus, persistence, and the willingness
+            to improve after every round.
+          </p>
+
+
+          <div class="qualities">
+
+            <span>Discipline</span>
+            <span>Strength</span>
+            <span>Persistence</span>
+            <span>Focus</span>
+            <span>Competitive spirit</span>
+            <span>Continuous improvement</span>
+
+          </div>
+
+        </div>
+
+
+        <div class="wrestle-visual">
+
+          <img
+            class="wrestling-graphic"
+            src="assets/wrestling.svg"
+            alt="Abstract wrestling graphic"
+          />
+
+          <div class="quote">
+            “Every round is another opportunity to get better.”
+          </div>
+
+        </div>
+
       </div>
+
     </section>
 
-    <section class="section contact-section" id="contact">
+
+    <!-- ================= CONTACT ================= -->
+
+    <section
+      class="section contact-section"
+      id="contact"
+    >
+
       <div class="container contact-grid">
-        <div class="contact-copy reveal"><p class="kicker">07 / LET'S TALK</p><h2>Have an idea?<br><span>Let's build it.</span></h2><p>Have an idea, project, opportunity, or just want to connect? Start a conversation.</p>
-          <a class="talk-card" href="https://tawk.to/" target="_blank" rel="noopener"><span class="talk-icon">💬</span><span><strong>Talk.io</strong><small>Start a live conversation</small></span><b>↗</b></a>
-          <div class="contact-links"><a href="mailto:aakashpc123@gmail.com">aakashpc123@gmail.com</a><a href="https://github.com/aakash10802" target="_blank" rel="noopener">github.com/aakash10802</a><a href="https://www.linkedin.com/in/aakash-s-hari-2209a1257/" target="_blank" rel="noopener">LinkedIn profile</a></div>
+
+        <div class="contact-copy reveal">
+
+          <p class="kicker">
+            08 / LET'S TALK
+          </p>
+
+          <h2>
+            Have an idea?<br>
+            <span>Let's build it.</span>
+          </h2>
+
+          <p>
+            Have an idea, project, opportunity, or just want to connect?
+            Start a conversation.
+          </p>
+
+
+          <a
+            class="talk-card"
+            href="https://tawk.to/"
+            target="_blank"
+            rel="noopener"
+          >
+
+            <span class="talk-icon">
+              💬
+            </span>
+
+            <span>
+              <strong>Talk.io</strong>
+              <small>Start a live conversation</small>
+            </span>
+
+            <b>
+              ↗
+            </b>
+
+          </a>
+
+
+          <div class="contact-links">
+
+            <a href="mailto:aakashpc123@gmail.com">
+              aakashpc123@gmail.com
+            </a>
+
+            <a
+              href="https://github.com/aakash10802"
+              target="_blank"
+              rel="noopener"
+            >
+              github.com/aakash10802
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/aakash-s-hari-2209a1257/"
+              target="_blank"
+              rel="noopener"
+            >
+              LinkedIn profile
+            </a>
+
+          </div>
+
         </div>
-        <form class="contact-form glass reveal" id="contactForm" novalidate>
-          <label>Name<input name="name" type="text" placeholder="Your name" required></label>
-          <label>Email<input name="email" type="email" placeholder="you@example.com" required></label>
-          <label>Subject<input name="subject" type="text" placeholder="What would you like to discuss?" required></label>
-          <label>Message<textarea name="message" rows="5" placeholder="Tell me a little about it..." required></textarea></label>
-          <button class="btn btn-primary" type="submit">Send Message <span>→</span></button>
-          <p class="form-status" id="formStatus"></p>
+
+
+        <!-- Contact Form -->
+
+        <form
+          class="contact-form glass reveal"
+          id="contactForm"
+          novalidate
+        >
+
+          <label>
+            Name
+            <input
+              name="name"
+              type="text"
+              placeholder="Your name"
+              required
+            />
+          </label>
+
+
+          <label>
+            Email
+            <input
+              name="email"
+              type="email"
+              placeholder="you@example.com"
+              required
+            />
+          </label>
+
+
+          <label>
+            Subject
+            <input
+              name="subject"
+              type="text"
+              placeholder="What would you like to discuss?"
+              required
+            />
+          </label>
+
+
+          <label>
+            Message
+            <textarea
+              name="message"
+              rows="5"
+              placeholder="Tell me a little about it..."
+              required
+            ></textarea>
+          </label>
+
+
+          <button
+            class="btn btn-primary"
+            type="submit"
+          >
+            Send Message <span>→</span>
+          </button>
+
+
+          <p
+            class="form-status"
+            id="formStatus"
+          ></p>
+
         </form>
+
       </div>
+
     </section>
+
   </main>
 
-  <footer class="footer"><div class="container footer-inner"><div><a class="brand" href="#home"><span>A</span> Aakash<span class="dot">.</span></a><p>Full Stack Developer</p></div><div class="footer-links"><a href="https://github.com/aakash10802" target="_blank">GitHub</a><a href="https://www.linkedin.com/in/aakash-s-hari-2209a1257/" target="_blank">LinkedIn</a><a href="#contact">Talk.io</a><a href="mailto:aakashpc123@gmail.com">Email</a></div><small>© 2026 Aakash S Hari. All rights reserved.</small></div></footer>
 
-  <div class="modal" id="projectModal" aria-hidden="true"><div class="modal-backdrop"></div><article class="modal-card"><button class="modal-close" id="modalClose">×</button><p class="kicker" id="modalKicker"></p><h2 id="modalTitle"></h2><p id="modalDescription"></p><div class="modal-tech" id="modalTech"></div><a id="modalLink" class="btn btn-primary" href="#" target="_blank" rel="noopener">Open project ↗</a></article></div>
+  <!-- ================= FOOTER ================= -->
+
+  <footer class="footer">
+
+    <div class="container footer-inner">
+
+      <div>
+
+        <a
+          class="brand"
+          href="#home"
+        >
+          <span>A</span> Aakash<span class="dot">.</span>
+        </a>
+
+        <p>
+          Full Stack Developer
+        </p>
+
+      </div>
+
+
+      <div class="footer-links">
+
+        <a
+          href="https://github.com/aakash10802"
+          target="_blank"
+          rel="noopener"
+        >
+          GitHub
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/aakash-s-hari-2209a1257/"
+          target="_blank"
+          rel="noopener"
+        >
+          LinkedIn
+        </a>
+
+        <a href="#contact">
+          Talk.io
+        </a>
+
+        <a href="mailto:aakashpc123@gmail.com">
+          Email
+        </a>
+
+      </div>
+
+
+      <small>
+        © 2026 Aakash S Hari. All rights reserved.
+      </small>
+
+    </div>
+
+  </footer>
+
+
+  <!-- ================= PROJECT MODAL ================= -->
+
+  <div
+    class="modal"
+    id="projectModal"
+    aria-hidden="true"
+  >
+
+    <div class="modal-backdrop"></div>
+
+    <article class="modal-card">
+
+      <button
+        class="modal-close"
+        id="modalClose"
+        aria-label="Close project"
+      >
+        ×
+      </button>
+
+      <p
+        class="kicker"
+        id="modalKicker"
+      ></p>
+
+      <h2
+        id="modalTitle"
+      ></h2>
+
+      <p
+        id="modalDescription"
+      ></p>
+
+      <div
+        class="modal-tech"
+        id="modalTech"
+      ></div>
+
+      <a
+        id="modalLink"
+        class="btn btn-primary"
+        href="#"
+        target="_blank"
+        rel="noopener"
+      >
+        Open project ↗
+      </a>
+
+    </article>
+
+  </div>
+
+
+  <!-- ================= JAVASCRIPT ================= -->
 
   <script src="js/script.js"></script>
-  <script src="https://embed.tawk.to/6665fefe9a809f19fb3bd50c/1hvv6o50v" crossorigin="anonymous"></script>
+
+  <!-- Tawk.to -->
+  <script
+    src="https://embed.tawk.to/6665fefe9a809f19fb3bd50c/1hvv6o50v"
+    crossorigin="anonymous"
+  ></script>
+
 </body>
 </html>
+```
